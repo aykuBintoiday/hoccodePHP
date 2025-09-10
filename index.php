@@ -1,6 +1,8 @@
 <?php 
-
-$name = "Khoa";
-
-echo "Đây là không ngoặc: ". $name . "<br/>" . "Đây là ngoặc kép: ". "$name" . "<br/>" . "Đây là ngoặc đơn: " . '$name';
+$a = 6;
+if($a == 5){
+    echo "Ok r đó tk l";
+} else {
+    echo "deo ổn r deo ổn r";
+}
 ?>
