@@ -1,7 +1,6 @@
 <?php 
 
-define ("hang" , "10" , false);
+$name = "Khoa";
 
-echo hang;
-
+echo "Đây là không ngoặc: ". $name . "<br/>" . "Đây là ngoặc kép: ". "$name" . "<br/>" . "Đây là ngoặc đơn: " . '$name';
 ?>
